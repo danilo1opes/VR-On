@@ -1,0 +1,66 @@
+.games-list {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.games-list h2 {
+  margin-bottom: 40px;
+}
+
+.games-class {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+
+.games-class li {
+  min-width: 280px;
+}
+
+.games-class a {
+  display: block;
+}
+
+.games-class img {
+  margin-bottom: 16px;
+}
+
+.games-class h3 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.games-class li span {
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.games-class h3::before {
+  content: "";
+  background-color: var(--cor-p1);
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  margin-right: 8px;
+  transition: width 0.2s;
+}
+
+.games-class a:hover h3::before {
+  width: 24px;
+}
+
+@media (max-width: 800px) {
+  .games-list {
+    padding-bottom: 60px;
+  }
+
+  .games-class {
+    gap: 20px;
+  }
+}

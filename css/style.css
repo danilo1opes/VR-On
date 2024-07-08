@@ -8,3 +8,6 @@
 
 /* home */
 @import "./home/introduction.css";
+
+/* Apps and Games */
+@import "./apps/games.css";

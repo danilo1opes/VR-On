@@ -7,12 +7,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .introduction-content {
@@ -34,15 +28,6 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 1200px) {
-  .introduction h1 {
-    font-size: 40px;
-  }
-  .introduction p {
-    font-size: 18px;
-  }
-}
-
 @media (max-width: 800px) {
   .introduction-bg {
     background: var(--cor-11);
@@ -57,7 +42,6 @@
     padding-bottom: 0px;
   }
   .introduction h1 {
-    font-size: 32px;
     margin-bottom: 16px;
   }
   .introduction img {
