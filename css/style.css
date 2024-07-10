@@ -8,6 +8,12 @@
 
 /* home */
 @import "./home/introduction.css";
+@import "./home/technology.css";
+@import "./home/partnership.css";
+@import "./home/exploring.css";
 
 /* Apps and Games */
 @import "./apps/games.css";
+
+/* Insurance */
+@import "./insurance/insurance.css";

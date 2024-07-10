@@ -57,6 +57,9 @@
 }
 
 @media (max-width: 600px) {
+  .header {
+    justify-content: center;
+  }
   .header-menu {
     gap: 12px;
   }
