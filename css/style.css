@@ -1,7 +1,9 @@
 @import "./global/global.css";
 @import "./utilities/typography.css";
 @import "./utilities/color.css";
+
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* utilities */
 @import "./utilities/components.css";
@@ -17,3 +19,6 @@
 
 /* Insurance */
 @import "./insurance/insurance.css";
+
+/* Terms and Conditions */
+@import "./terms/terms.css";
