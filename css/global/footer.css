@@ -32,11 +32,6 @@
   margin-bottom: 16px;
 }
 
-.footer-social {
-  display: flex;
-  gap: 32px;
-}
-
 .footer a:hover {
   color: var(--cor-0);
 }
@@ -47,9 +42,6 @@
 }
 
 @media (max-width: 800px) {
-  .footer > img {
-    display: none;
-  }
   .footer {
     grid-template-columns: 1fr 1fr;
   }

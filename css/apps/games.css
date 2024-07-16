@@ -17,6 +17,14 @@
   overflow-x: auto;
 }
 
+#vron .games-class img {
+  max-width: 500px;
+}
+
+#vron .games-class {
+  justify-content: center;
+}
+
 .games-class li {
   min-width: 280px;
 }
@@ -63,4 +71,10 @@
     gap: 20px;
   }
 }
- 
+
+@media (max-width: 600px) {
+  #vron .games-class img {
+    max-width: 250px;
+    padding: 20px;
+  }
+}

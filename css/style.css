@@ -7,6 +7,7 @@
 
 /* utilities */
 @import "./utilities/components.css";
+@import "./utilities/form.css";
 
 /* home */
 @import "./home/introduction.css";
@@ -21,6 +22,14 @@
 @import "./insurance/insurance.css";
 @import "./insurance/benefits.css";
 @import "./insurance/question.css";
+
+/* Insurance */
+@import "./vron/vron.css";
+@import "./vron/safe.css";
+
+/* Contact */
+@import "./contact/contact.css";
+@import "./contact/store.css";
 
 /* INDEX SEC */
 @import "/css/products/products.css";
