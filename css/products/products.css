@@ -82,6 +82,12 @@
   padding-bottom: 120px;
 }
 
+@media (min-width: 1200px) {
+  .products {
+    background: url("../../img/dec/top-right.svg") no-repeat top 40px right 20px;
+  }
+}
+
 @media (max-width: 800px) {
   .products-bg {
     background: var(--cor-11);

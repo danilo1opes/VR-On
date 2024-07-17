@@ -17,6 +17,8 @@
   color: var(--cor-1);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -78,6 +80,10 @@
 }
 
 /* title inset */
+
+.title {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
+}
 
 .title-bg {
   padding-top: 60px;

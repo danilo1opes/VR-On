@@ -8,6 +8,7 @@
       name="description"
       content="Developed with cutting-edge technology, our prototype offers a virtual and realistic experience."
     />
+    <link rel="preload" href="css/style.css" as="style" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,7 +22,7 @@
     <header class="header-bg">
       <div class="header container">
         <a href="./">
-          <img src="img/logo/VR On.svg" alt="VR On" />
+          <img src="img/logo/VR On.svg" width="136" height="32" alt="VR On" />
         </a>
 
         <nav aria-label="primary">
@@ -46,9 +47,18 @@
           </p>
           <a class="button" href="./products.html">Learn More</a>
         </div>
-        <div>
-          <img src="img/photo/Introduction.jpg" alt="Introduction VR On" />
-        </div>
+        <picture>
+          <source
+            media="(max-width: 800px)"
+            srcset="img/photo/Introduction.jpg"
+          />
+          <img
+            src="img/photo/Introduction.jpg"
+            width="1360"
+            height="1360"
+            alt="Introduction VR On"
+          />
+        </picture>
       </div>
     </main>
 
@@ -60,21 +70,36 @@
       <ul class="games-class">
         <li>
           <a href="./appsandgames/games.html">
-            <img src="img/products/youtube.jpg" alt="Youtube VR" />
+            <img
+              src="img/products/youtube.jpg"
+              width="920"
+              height="518"
+              alt="Youtube VR"
+            />
             <h3 class="font-1-xl">Youtube VR</h3>
             <span class="font-2-m color-8">Free</span>
           </a>
         </li>
         <li>
           <a href="./appsandgames/games.html">
-            <img src="img/products/re4.jpg" alt="Resident Evil 4 Remake" />
+            <img
+              src="img/products/re4.jpg"
+              width="920"
+              height="518"
+              alt="Resident Evil 4 Remake"
+            />
             <h3 class="font-1-xl">Resident Evil 4 Remake</h3>
             <span class="font-2-m color-8">R$285,00</span>
           </a>
         </li>
         <li>
           <a href="./appsandgames/games.html">
-            <img src="img/products/acvr.jpg" alt="Assassin's creed VR" />
+            <img
+              src="img/products/acvr.jpg"
+              width="920"
+              height="518"
+              alt="Assassin's creed VR"
+            />
             <h3 class="font-1-xl">Assassin's creed Nexus</h3>
             <span class="font-2-m color-8">R$225,00</span>
           </a>
@@ -101,7 +126,7 @@
           <a href="./products.html" class="link">CHOOSE A MODEL</a>
           <div class="technology-benefits">
             <div>
-              <img src="./img/icon-3/audio.svg" alt="" />
+              <img src="./img/icon-3/audio.svg" width="24" height="24" alt="" />
               <h3 class="font-1-m color-0">Immersive Spatial Audio</h3>
               <p class="font-2-xs color-5">
                 3D audio provides realistic sound that completes the visual
@@ -110,7 +135,7 @@
               </p>
             </div>
             <div>
-              <img src="./img/icon-3/move.svg" alt="" />
+              <img src="./img/icon-3/move.svg" width="24" height="24" alt="" />
               <h3 class="font-1-m color-0">Immersive Spatial Audio</h3>
               <p class="font-2-xs color-5">
                 3D audio provides realistic sound that completes the visual
@@ -121,7 +146,12 @@
           </div>
         </div>
         <div class="technology-image">
-          <img src="img/photo/experience.jpg" alt="Experience photo" />
+          <img
+            src="img/photo/experience.jpg"
+            width="1200"
+            height="1920"
+            alt="Experience photo"
+          />
         </div>
       </div>
     </article>
@@ -132,21 +162,82 @@
       </h2>
 
       <ul>
-        <li><img src="./img/partner/caravan.svg" alt="caravan" /></li>
-        <li><img src="./img/partner/dogs.svg" alt="dogs" /></li>
-        <li><img src="./img/partner/flexblog.svg" alt="flexblog" /></li>
-        <li><img src="./img/partner/handel.svg" alt="handel" /></li>
-        <li><img src="./img/partner/lescone.svg" alt="lescone" /></li>
-        <li><img src="./img/partner/ranek.svg" alt="ranek" /></li>
-        <li><img src="./img/partner/surfbot.svg" alt="surfbot" /></li>
-        <li><img src="./img/partner/wildbeast.svg" alt="wildbeast" /></li>
+        <li>
+          <img
+            src="./img/partner/caravan.svg"
+            width="140"
+            height="38"
+            alt="caravan"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/partner/dogs.svg"
+            width="152"
+            height="39"
+            alt="dogs"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/partner/flexblog.svg"
+            width="164"
+            height="38"
+            alt="flexblog"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/partner/handel.svg"
+            width="139"
+            height="50"
+            alt="handel"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/partner/lescone.svg"
+            width="208"
+            height="41"
+            alt="lescone"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/partner/ranek.svg"
+            width="148"
+            height="36"
+            alt="ranek"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/partner/surfbot.svg"
+            width="200"
+            height="49"
+            alt="surfbot"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/partner/wildbeast.svg"
+            width="196"
+            height="34"
+            alt="wildbeast"
+          />
+        </li>
       </ul>
     </section>
 
     <section class="exploring-bg" aria-label="Exploring">
       <div class="exploring container">
         <div>
-          <img src="./img/photo/gril.jpg" alt="VR ON girl " />
+          <img
+            src="./img/photo/gril.jpg"
+            width="1360"
+            height="1740"
+            alt="VR ON girl "
+          />
         </div>
         <div class="exploring-content">
           <span class="font-2-l-b color-5">Experience</span>
@@ -154,7 +245,12 @@
             A New Dimension From Reality<span class="color-p1">.</span>
           </h2>
           <div>
-            <img src="./img/photo/man.jpg" alt="VR ON man" />
+            <img
+              src="./img/photo/man.jpg"
+              width="1440"
+              height="1512"
+              alt="VR ON man"
+            />
           </div>
         </div>
       </div>
@@ -200,7 +296,7 @@
     <footer class="footer-bg">
       <div class="footer container">
         <a href="./">
-          <img src="img/logo/VR On.svg" alt="VR On" />
+          <img src="img/logo/VR On.svg" width="136" height="32" alt="VR On" />
         </a>
         <div class="footer-contact">
           <h3 class="font-2-l-b color-0">Contact</h3>

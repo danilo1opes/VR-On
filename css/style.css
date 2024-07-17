@@ -30,6 +30,10 @@
 /* Contact */
 @import "./contact/contact.css";
 @import "./contact/store.css";
+@import "./contact/form.css";
+
+/* Budget */
+@import "./budget/budget.css";
 
 /* INDEX SEC */
 @import "/css/products/products.css";
