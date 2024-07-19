@@ -181,7 +181,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 400px) {
   .budget-product {
     grid-template-columns: 1fr;
   }
