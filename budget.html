@@ -17,6 +17,9 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body id="budget">
     <header class="header-bg">
@@ -27,7 +30,7 @@
 
         <nav aria-label="primary">
           <ul class="header-menu font-1-m color-0">
-            <li><a href="./index.html">VR On</a></li>
+            <li><a href="./products.html">VR On</a></li>
             <li><a href="./insurance.html">Insurance</a></li>
             <li><a href="./contact.html">Contact</a></li>
           </ul>
@@ -45,7 +48,7 @@
         </div>
       </div>
 
-      <form class="budget container" action="./">
+      <form class="budget container" action="./budget.html">
         <div class="budget-product">
           <h2 class="font-1-xs color-5">Vr On or Insurance?</h2>
 
@@ -63,8 +66,8 @@
           <div class="budget-content" id="budget-vron">
             <h2 class="font-1-xs color-5">Choose yours:</h2>
 
-            <input type="radio" name="product" value="metaslim" id="metaslim" />
-            <label for="metaslim">VR ON SLIM <span>R$ 2.999,00</span></label>
+            <input type="radio" name="product" value="metas" id="metas" />
+            <label for="metas">VR ON SLIM <span>$2.999,00</span></label>
 
             <div class="budget-detail">
               <ul class="font-1-xs color-8">
@@ -95,7 +98,7 @@
             </div>
 
             <input type="radio" name="product" value="meta" id="meta" />
-            <label for="meta">VR ON <span>R$ 4.999,00</span></label>
+            <label for="meta">VR ON <span>$4.999,00</span></label>
 
             <div class="budget-detail">
               <ul class="font-1-xs color-8">
@@ -137,11 +140,11 @@
           <div class="budget-content" id="budget-insurance">
             <h2 class="font-1-xs color-5">Choose the plan:</h2>
 
-            <input type="radio" name="product" value="silver" id="silver" />
-            <label for="silver">Silver<span>R$ 59,90</span></label>
+            <input type="radio" name="product" value="siilver" id="siilver" />
+            <label for="siilver">Silver<span>$59,90</span></label>
 
-            <input type="radio" name="product" value="gold" id="gold" />
-            <label for="gold">Gold<span>R$ 99,90</span></label>
+            <input type="radio" name="product" value="goold" id="goold" />
+            <label for="goold">Gold<span>$99,90</span></label>
           </div>
         </div>
         <div class="budget-data form">

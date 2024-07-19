@@ -16,6 +16,9 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body id="vron">
     <header class="header-bg">
@@ -26,7 +29,7 @@
 
         <nav aria-label="primary">
           <ul class="header-menu font-1-m color-0">
-            <li><a href="./vron.html">VR On</a></li>
+            <li><a href="./products.html">VR On</a></li>
             <li><a href="./insurance.html">Insurance</a></li>
             <li><a href="./contact.html">Contact</a></li>
           </ul>
@@ -37,7 +40,7 @@
     <main class="title-bg">
       <div>
         <div class="title container">
-          <p class="font-2-xl color-5">R$ 4.999,00</p>
+          <p class="font-2-xl color-5">$4.999,00</p>
           <h1 class="font-1-xxl color-0">
             VR ON<span class="color-p1">.</span>
           </h1>
@@ -46,9 +49,9 @@
 
       <div class="vron container">
         <div class="vron-image">
-          <img src="../img/album/woman3.jpg" alt="" />
-          <img src="../img/album/woman2.jpg" alt="" />
-          <img src="../img/album/man1.jpg" alt="" />
+          <img src="../img/album/woman3.jpg" alt="Image Vr woman" />
+          <img src="../img/album/woman2.jpg" alt="Image Vr Woman" />
+          <img src="../img/album/man1.jpg" alt="Image Vr Man" />
         </div>
         <div class="vron-content">
           <p class="font-2-l color-5">
@@ -58,7 +61,9 @@
             realities and explore infinite possibilities with ‘VR ON’.
           </p>
           <div class="vron-buy">
-            <a class="button" href="../budget.html">buy now</a>
+            <a class="button" href="../budget.html?type=meta&product=vron"
+              >buy now</a
+            >
             <span class="font-1-xs color-6"
               ><img src="../img/icon/deliver.svg" alt="" />delivery in 5
               days</span
@@ -117,7 +122,7 @@
           <a href="./vronslim.html">
             <img src="../img/products/vronslim.jpg" alt="VR ON SLIM" />
             <h3 class="font-1-xl">VR ON SLIM</h3>
-            <span class="font-2-m color-8">R$ 2.999,00</span>
+            <span class="font-2-m color-8">$2.999,00</span>
           </a>
         </li>
       </ul>
@@ -186,6 +191,6 @@
         </p>
       </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>
