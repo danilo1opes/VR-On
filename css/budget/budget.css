@@ -141,6 +141,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 8px;
+  margin-top: 4px;
 }
 
 .budget-detail li img {
@@ -152,10 +153,18 @@
   display: grid;
 }
 
+.budget-img {
+  width: 50%;
+  margin-left: 72px;
+}
+
 @media (max-width: 1200px) {
   .budget-product,
   .budget-data {
     padding: 32px;
+  }
+  .budget-img {
+    max-width: 50%;
   }
 }
 
@@ -169,6 +178,12 @@
   }
   .budget-data {
     border-radius: 0 0 5px 5px;
+  }
+}
+
+@media (max-width: 417px) {
+  .budget-img {
+    display: none;
   }
 }
 
