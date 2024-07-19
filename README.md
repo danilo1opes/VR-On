@@ -40,7 +40,7 @@ O VR ON é um website dedicado a promover e vender óculos de realidade virtual 
 
 ## Conclusão
 
-Este projeto foi uma jornada desafiadora e gratificante. Utilizamos uma variedade de ferramentas e tecnologias para criar um website robusto e funcional. O objetivo foi proporcionar uma experiência de usuário de alta qualidade, facilitando a navegação e a compreensão dos produtos e serviços oferecidos. Através da colaboração e do uso eficiente de tecnologias, conseguimos criar uma plataforma que atende às necessidades dos clientes e destaca as vantagens dos produtos VR ON.
+Este projeto foi uma jornada desafiadora e gratificante. Utilizei uma variedade de ferramentas e tecnologias para criar um website robusto e funcional. O objetivo foi proporcionar uma experiência de usuário de alta qualidade, facilitando a navegação e a compreensão dos produtos e serviços oferecidos. Através da colaboração e do uso eficiente de tecnologias, consegui criar uma plataforma que atende às necessidades dos clientes e destaca as vantagens dos produtos VR ON.
 
 ---
 
