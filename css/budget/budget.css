@@ -181,14 +181,19 @@
   }
 }
 
-@media (max-width: 417px) {
-  .budget-img {
-    display: none;
-  }
-}
-
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .budget-product {
     grid-template-columns: 1fr;
+  }
+  .budget-img {
+    width: 50%;
+    margin-left: 36px;
+  }
+  .budget-detail li img {
+    width: 12px;
+    margin-right: 8px;
+  }
+  .budget-detail li {
+    font-size: 10px;
   }
 }
