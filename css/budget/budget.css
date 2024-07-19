@@ -183,7 +183,8 @@
 
 @media (max-width: 417px) {
   .budget-img {
-    display: none;
+    margin-left: 36px;
+    display: block;
   }
 }
 
