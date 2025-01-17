@@ -1,4 +1,4 @@
-const form = document.querySelector("form");
+const form = document.querySelector('form');
 
 function formSending(response) {
   if (response.ok) {
@@ -12,16 +12,16 @@ function formSending(response) {
 
 function sendFrom(event) {
   event.preventDefault();
-  const button = document.querySelector("form button");
+  const button = document.querySelector('form button');
   button.disable = true;
-  button.innerText = "Sending...";
+  button.innerText = 'Sending...';
 
   const data = new FormDataEvent(form);
 
-  fetch("./enviar.php", {
-    method: "POST",
+  fetch('./enviar.php', {
+    method: 'POST',
     body: data,
   }).then(formSending);
 }
 
-form.addEventListener("submit", sendFrom);
+form.addEventListener('submit', sendFrom);

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VR ON - Total immersion in Virtual Reality</title>
@@ -17,9 +20,6 @@
       rel="stylesheet"
     />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <script>
-      document.documentElement.classList.add("js");
-    </script>
   </head>
   <body>
     <header class="header-bg">
@@ -38,7 +38,7 @@
       </div>
     </header>
 
-    <main class="introduction-bg">
+    <main class="introduction-bg js-scroll">
       <div class="introduction container">
         <div class="introduction-content">
           <h1 class="font-1-xxl color-0 fadeInLeft" data-anime="200">
@@ -67,7 +67,7 @@
       </div>
     </main>
 
-    <article class="games-list">
+    <article class="games-list js-scroll">
       <h2 class="container font-1-xxl">
         Apps and Games<span class="color-p1">.</span>
       </h2>
@@ -112,7 +112,7 @@
       </ul>
     </article>
 
-    <article class="technology-bg">
+    <article class="technology-bg js-scroll">
       <div class="technology container">
         <div class="technology-content">
           <span class="font-2-l-b color-5">Experience</span>
@@ -161,7 +161,7 @@
       </div>
     </article>
 
-    <section class="partner" aria-label="Partnership with   Web3">
+    <section class="partner js-scroll" aria-label="Partnership with   Web3">
       <h2 class="container font-1-xxl">
         Partnership with Web3<span class="color-p1">.</span>
       </h2>
@@ -234,7 +234,7 @@
       </ul>
     </section>
 
-    <section class="exploring-bg" aria-label="Exploring">
+    <section class="exploring-bg js-scroll" aria-label="Exploring">
       <div class="exploring container">
         <div>
           <img
@@ -261,7 +261,7 @@
       </div>
     </section>
 
-    <article class="insurance-bg">
+    <article class="insurance-bg js-scroll">
       <div class="insurance container">
         <h2 class="font-1-xxl color-12">
           Insurance<span class="color-p1">.</span>
@@ -280,7 +280,7 @@
           <a href="./budget.html" class="button secondary">sign up</a>
         </div>
 
-        <div class="insurance-items">
+        <div class="insurance-items js-scroll">
           <h3 class="font-1-xl" id="gold">GOLD</h3>
           <span class="font-1-xl color-0"
             >$99,90<span class="font-1-xs">month</span></span
@@ -298,7 +298,7 @@
       </div>
     </article>
 
-    <footer class="footer-bg">
+    <footer class="footer-bg js-scroll">
       <div class="footer container">
         <a href="./">
           <img src="img/logo/vron.svg" width="136" height="32" alt="VR On" />
@@ -309,11 +309,11 @@
             <li><a href="tel:+5562992373284">+55 (62) 99237-3284</a></li>
             <li>
               <a href="mailto:contatolopesda@gmail.com"
-                >contatolopesda@gmail.com</a
+                >contatolopesdan@gmail.com</a
               >
             </li>
             <li>📍Lisbon, Brazil</li>
-            <li>youtube.com/@AstroDev_tv</li>
+            <li>youtube.com/@nyx_ontv</li>
           </ul>
         </div>
         <div class="footer-information">
@@ -332,6 +332,7 @@
         </p>
       </div>
     </footer>
+    <script src="js/form.js"></script>
     <script src="./js/plugins/simple-anime.js"></script>
     <script src="js/script.js"></script>
   </body>
